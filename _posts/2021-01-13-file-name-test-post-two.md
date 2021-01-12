@@ -5,4 +5,4 @@ date: 2021-01-13
 ---
 
 This is the second post and an image:
-![pegs, pegs, pegs](assets/images/pegs-pegs-web.jpg)
+![pegs, pegs, pegs](http://paulabbott.net/assets/images/pegs-pegs-web.jpg)
