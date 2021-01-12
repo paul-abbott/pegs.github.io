@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: default-empty
 title: stream
 ---
 
 	  {% for post in site.posts %}
 	    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 			<section>
-			{{ content }}
+			{{ post.content }}
 			</section>
 		{% endfor %}
