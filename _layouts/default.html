@@ -2,32 +2,20 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+			<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		</head>
 		<body>
-			<!-- NAV ON HOLD
 			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			!-->
-			<div class="container">
-
-			{{ content }}
-
-			</div><!-- /.container -->
-			<!-- FOOTER ON HOLD
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-				</ul>
-			</footer>
-			!-->
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <section>
+      {{ content }}
+    </section>
+    <footer>
+      &copy; to me
+			<!-- might include mailchimp for example !-->
+    </footer>
 		</body>
 	</html>
