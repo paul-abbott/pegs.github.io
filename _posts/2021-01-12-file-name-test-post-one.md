@@ -6,7 +6,7 @@ date: 2021-01-12
 
 # Introducing pegs
 
-Welcome to pegs.
+Welcome to pegs..
 
 ![pegs image](../assets/images/pegs-front-001.jpg)
 
