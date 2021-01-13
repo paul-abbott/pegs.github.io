@@ -2,6 +2,7 @@
 layout: page-mailing-list
 title: "Mailing List"
 ---
+# Mailing List
 
 <!-- Begin Mailchimp Signup Form -->
 <div id="mc_embed_signup">
