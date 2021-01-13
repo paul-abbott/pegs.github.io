@@ -49,19 +49,17 @@
   /* divs for page or post content */
 }
 
-.page-title, .post-title{
+.page-title, .post-body-title{
   margin-top: 1em;
   margin-bottom: 1em;
   font-weight: 600px !important;
 }
 
-.page-content, .post-content{
+.page-content, .post-body-content{
   margin-top: 1em;
 }
 
 .stream-content #text{
-  margin-bottom: 1em !important;
-  font-weight: 600px;
 }
 
 .markdown-body, body{

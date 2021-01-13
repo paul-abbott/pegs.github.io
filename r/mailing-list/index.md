@@ -3,7 +3,7 @@ layout: page-mailing-list
 title: "Mailing List"
 ---
 
-<!-- mailchimp signup form !-->
+<!-- Begin Mailchimp Signup Form -->
 <div id="mc_embed_signup">
 <form action="https://site.us7.list-manage.com/subscribe/post?u=a3a47af302648b1b88715fd42&amp;id=2cbfea392e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
@@ -15,6 +15,7 @@ title: "Mailing List"
     </div>
 </form>
 </div>
+
 <!--End mc_embed_signup-->
 
 contact@pegs.site
