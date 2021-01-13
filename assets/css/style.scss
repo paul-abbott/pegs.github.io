@@ -87,10 +87,11 @@
 
 .markdown-body h1, h1 {
   /* reserved for post-titles? */
-    margin-bottom: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     color: var(--main-txt-color);
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
     /* overide */
     border-bottom: none;
@@ -105,8 +106,9 @@
     font-size: 1em;
     text-decoration: underline;
     text-decoration-style: dotted;
-    border-bottom: none;
+    text-align: center;
     font-weight: normal !important;
+    border-bottom: none;
     padding-bottom: 1em;
 }
 
