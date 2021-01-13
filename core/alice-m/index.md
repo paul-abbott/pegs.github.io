@@ -3,6 +3,8 @@ layout: page
 title: "Alice"
 ---
 
-# Alice  Mendalowitz
+# Alice  Mendelowitz
 
-This is where we might put some information about Alice's show. 'opening dates'
+This is where we will put information about Alice's show.
+
+*check spelling

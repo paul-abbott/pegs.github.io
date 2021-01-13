@@ -5,8 +5,7 @@ title: "About"
 
 # About
 
-What we are all about...
-
-## or email
-
+Rue Victoire 39, Bruxelles, Belgium.
 contact@pegs.site
+
+Keira Greene, Paul Abbott.
