@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "pegs soon"
+title: "The First Post"
 date: 2021-01-12
 ---
 

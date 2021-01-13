@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "second post"
+title: "The Second Post"
 date: 2021-01-13
 ---
 
-POST ONE: Line one text text.
-
-Line two text, image below
+This might be our second post. A bit shorter
 
 ![pegs image](../assets/images/pegs-pegs-web.jpg)

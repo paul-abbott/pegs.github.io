@@ -41,7 +41,7 @@
 .punctum{
   margin-top: 1em;
   margin-bottom: 1em;
-  font-size: 4em;
+  font-size: 50px;
   color: var(--secondary-details-color);
 }
 
@@ -57,6 +57,11 @@
 
 .page-content, .post-content{
   margin-top: 1em;
+}
+
+.stream-content #text{
+  margin-bottom: 1em !important;
+  font-weight: 600px;
 }
 
 .markdown-body, body{
