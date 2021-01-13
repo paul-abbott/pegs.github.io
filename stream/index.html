@@ -1,10 +1,9 @@
 ---
-layout: default-empty
-title: stream
+layout: wrapper
 ---
 
 	  {% for post in site.posts %}
-	    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 			<section>
 			{{ post.content }}
 			</section>
