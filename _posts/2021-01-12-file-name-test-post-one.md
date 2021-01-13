@@ -4,11 +4,11 @@ title: "first post"
 date: 2021-01-12
 ---
 
-#header h1 example
+# header h1 example
 
-##h2
+## h2
 
-###h3
+### h3
 
 body text this is body text body text this is body textbody text this is body textbody text this is body textbody text this is body textbody text this is body text
 

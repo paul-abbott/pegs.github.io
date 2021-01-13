@@ -19,7 +19,7 @@
   text-align: center;
   text-decoration: none !important;
   font-weight: bold;
-  font-size: 24px
+  font-size: 24px;
 }
 
 .page, .post {
@@ -35,7 +35,7 @@
 }
 
 .markdown-body, body{
-    /* font-family: "Times New Roman", Times, serif; */
+    font-family: "Times New Roman", Times, serif;
     font-size: 18px;
     line-height: 1.2em;
     background: white; /* porto pink #FFD1CE; */
@@ -44,45 +44,6 @@
 .markdown-body a, body a{
     color: black; /*mediumblue;*/
     text-decoration: underline;
-}
-
-/*details>details wrapper */
-#details-wrap, #details-wrap:hover{
-    width:inherit;
-    max-width: 600px;
-    margin-left: 1em;
-    margin-bottom: 2em;
-    margin-top: 2em;
-    /* background: #FFD1CE; */
-}
-
-/* soundcloud-bandcamp player container */
-#bs-player,
-.markdown-body #bs-player,
-#bs-player:hover,
-.markdown-body #bs-player:hover,
-{
-    max-width: 600px;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    /* background: #FFD1CE; */
-}
-
-/* image container */
-#details-wrap > img,
-.markdown-body img,
-.markdown-body img .responsive-img,
-img
-{
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    margin: 0.5em 0 0.5em 0;
-    /* background: #FFD1CE; */
-    /* centering code */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .markdown-body blockquote, blockquote{
@@ -155,6 +116,47 @@ img
     removes arrow
     underline style
 */
+
+/*details>details wrapper */
+#details-wrap, #details-wrap:hover{
+    width:inherit;
+    max-width: 600px;
+    margin-left: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    /* background: #FFD1CE; */
+}
+
+/* soundcloud-bandcamp player container */
+#bs-player,
+.markdown-body #bs-player,
+#bs-player:hover,
+.markdown-body #bs-player:hover,
+{
+    max-width: 600px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    /* background: #FFD1CE; */
+}
+
+/* image container */
+#details-wrap > img,
+.markdown-body img,
+.markdown-body img .responsive-img,
+img
+{
+    width: 100%;
+    /* max-width: 600px; */
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    /* background: #FFD1CE; */
+    /* centering code */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 details > summary {
     border: none;
     text-decoration: none;
