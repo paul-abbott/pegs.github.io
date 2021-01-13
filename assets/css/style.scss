@@ -83,12 +83,10 @@
 }
 
 .markdown-body h1, h1 {
-    font-size: 1em;
-    text-decoration: underline;
-    text-decoration-style: dotted;
-    padding-bottom: 1em;
-    border-bottom: none;
+  /* reserved for post-titles? */
+    margin-bottom: 1em;
     color: var(--main-txt-color);
+    font-weight: 600 !important;
 }
 
 .markdown-body h2, h2,
@@ -96,6 +94,11 @@
 .markdown-body h4, h4
 {
     font-size: 1em;
+    font-size: 1em;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    padding-bottom: 1em;
+    border-bottom: none;
 }
 
 
