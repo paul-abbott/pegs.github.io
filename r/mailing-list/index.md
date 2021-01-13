@@ -1,15 +1,9 @@
 ---
-layout: page
+layout: page-mailing-list
 title: "Mailing List"
 ---
 
-<!-- Begin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
+<!-- mailchimp signup form !-->
 <div id="mc_embed_signup">
 <form action="https://site.us7.list-manage.com/subscribe/post?u=a3a47af302648b1b88715fd42&amp;id=2cbfea392e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">

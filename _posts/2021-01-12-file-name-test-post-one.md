@@ -1,19 +1,11 @@
 ---
 layout: post
-title: "first post"
+title: "pegs soon"
 date: 2021-01-12
 ---
 
-# header h1 example
+This might be the first post we write, saying that Alices show will be coming soon, and maybe with an image of something. We might even link to a page about [Alice](https://pegs.site/core/alice-m).
 
-## h2
+# when
 
-### h3
-
-body text this is body text body text this is body textbody text this is body textbody text this is body textbody text this is body textbody text this is body text
-
-Markdown inline link:
-[birds page](https://pegs.site/core/birds)
-
-html inline link
-<a href="#">link</a>
+Alices show will be displayed in our vitrine from Feb until March.

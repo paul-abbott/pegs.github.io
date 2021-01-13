@@ -30,12 +30,19 @@
   margin-bottom: 2em;
 }
 
+.punctum{
+  font-size: 100px;
+  color: red;
+}
+
 .page, .post {
   /* divs for page or post content */
 }
 
 .page-title, .post-title{
   margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: 600px !important;
 }
 
 .page-content, .post-content{
@@ -66,8 +73,9 @@
 
 .markdown-body h1, h1 {
     font-size: 1em;
-    font-weight: bold;
-    padding-bottom: 0.3em;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    padding-bottom: 1em;
     border-bottom: none;
     color: black;
 }
@@ -77,8 +85,6 @@
 .markdown-body h4, h4
 {
     font-size: 1em;
-    padding-bottom: 0.3em;
-    border-bottom: none;
 }
 
 
@@ -213,4 +219,12 @@ sup {
 
 sup:hover{
     color: green !important;
+}
+
+#mc_embed_signup {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background: #fff;
+  clear:left;
+  font:14px Helvetica,Arial,sans-serif;
 }
