@@ -63,7 +63,8 @@
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
     line-height: 1.2em;
-    background: white; /* porto pink #FFD1CE; */
+    background: var(--main-bg-color);
+    color: var(--main-txt-color);
 }
 
 .markdown-body a, body a{

@@ -4,11 +4,7 @@ layout: wrapper
 
 	  {% for post in site.posts %}
 			<div class="post-content">
-				<div class="post-title">
-			    {{ post.title }}
-			  </div>
-			  <div class="post-content">
-			    {{ content }}
-			  </div>
+			{{ post.title }}
+			{{ post.content }}
 			</div>
 		{% endfor %}
