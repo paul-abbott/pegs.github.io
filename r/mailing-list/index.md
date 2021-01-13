@@ -3,4 +3,6 @@ layout: page
 title: "Mailing List"
 ---
 
-Sign up here...
+Sign up below: xxx
+
+contact@pegs.site
