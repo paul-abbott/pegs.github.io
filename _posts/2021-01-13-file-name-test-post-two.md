@@ -1,5 +1,5 @@
 ---
-layout: stream-post
+layout: post
 title: "second post"
 date: 2021-01-13
 ---

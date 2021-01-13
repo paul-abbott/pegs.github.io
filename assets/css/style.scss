@@ -13,18 +13,31 @@
     background: white; /* porto pink #FFD1CE; */
 }
 
+.site-title, .site-title a{
+  /* PEGS SITE TITLE */
+  padding-bottom: 1em;
+  text-align: center;
+  text-decoration: none !important;
+  font-weight: bold;
+  font-size: 24px
+}
+
 .page, .post {
   /* divs for page or post content */
 }
 
-.header {
-  
+.page-title, .post-title{
+  margin-top: 1em;
+}
+
+.page-content, .post-content{
+  margin-top: 1em;
 }
 
 .markdown-body, body{
-    font-family: "Times New Roman", Times, serif;
-    font-size: 15px;
-    line-height: 1.2;
+    /* font-family: "Times New Roman", Times, serif; */
+    font-size: 18px;
+    line-height: 1.2em;
     background: white; /* porto pink #FFD1CE; */
 }
 
@@ -66,6 +79,10 @@ img
     height: auto;
     margin: 0.5em 0 0.5em 0;
     /* background: #FFD1CE; */
+    /* centering code */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .markdown-body blockquote, blockquote{
@@ -80,9 +97,10 @@ img
 
 .markdown-body h1, h1 {
     font-size: 1em;
+    font-weight: bold;
     padding-bottom: 0.3em;
     border-bottom: none;
-    color: red;
+    color: green;
 }
 
 .markdown-body h2, h2,
@@ -131,7 +149,6 @@ img
 .markdown-body strong, strong{
     color: black; /* porto theme green; */
     font-weight: 400; /* 400 with green */
-
 }
 
 /*  details-summary collapse style
