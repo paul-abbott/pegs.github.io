@@ -1,7 +1,8 @@
 ---
 layout: page-mailing-list
-title: "Mailing List"
+title: "mailing"
 ---
+
 # Mailing List
 
 <!-- Begin Mailchimp Signup Form -->
