@@ -3,8 +3,10 @@ layout: wrapper
 ---
 
 	  {% for post in site.posts %}
-	    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-			<section>
+	    <!-- <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> !-->
+			<!-- {{ post.title }} !-->
+			<!-- only showing content to stream !-->
+			<div class="post-content">
 			{{ post.content }}
-			</section>
+			</div>
 		{% endfor %}

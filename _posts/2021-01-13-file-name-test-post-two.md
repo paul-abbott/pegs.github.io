@@ -1,8 +1,11 @@
 ---
-layout: post
-title: "pegs test post two"
+layout: stream-post
+title: "second post"
 date: 2021-01-13
 ---
 
-This is the second post and an image:
+POST ONE: Line one text text.
+
+Line two text, image below
+
 ![pegs image](../assets/images/pegs-pegs-web.jpg)
