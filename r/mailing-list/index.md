@@ -6,7 +6,7 @@ title: "Contact"
 # Mailing List
 
 <!-- Begin Mailchimp Signup Form -->
-<div id="mc_embed_signup">
+<div id="mc_embed_signup-p">
 <form action="https://site.us7.list-manage.com/subscribe/post?u=a3a47af302648b1b88715fd42&amp;id=2cbfea392e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 
