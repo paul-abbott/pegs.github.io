@@ -21,4 +21,4 @@ title: "Contact"
 
 <!--End mc_embed_signup-->
 
-Or contact us here: <ul>contact@pegs.site</ul>
+Or contact us here: contact@pegs.site
