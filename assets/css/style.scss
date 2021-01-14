@@ -29,10 +29,11 @@
   padding-bottom: 1em;
   text-align: center;
   text-decoration: none !important;
-  font-size: 34px;
+  font-size: 54px;
 }
 
 .nav{
+  margin-bottom: 1em;
   text-align: center !important;
 }
 
@@ -89,14 +90,14 @@
 }
 
 .markdown-body h1, h1 {
-  /* reserved for post-titles? */
+  /* h1 is post title + page title */
     margin-top: 2em;
     margin-bottom: 2em;
     color: var(--main-txt-color);
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: normal;
     text-align: center !important;
-    /* overide */
+    /* overides */
     border-bottom: none;
     padding-bottom: 0;
 }
@@ -251,10 +252,10 @@ sup:hover{
 #mc_embed_signup {
   margin-top: 1em;
   margin-bottom: 1em;
+  font-size: 0.7em;
   /* font:14px Helvetica,Arial,sans-serif; */
   color: var(--main-txt-color);
-  background: var(--main-bg-color);
+  background: white; /* var(--main-bg-color); */
   width:100%;
   clear:left;
-
 }
