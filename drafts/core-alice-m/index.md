@@ -6,5 +6,4 @@ title: "Alice"
 # Alice  Mendelowitz
 
 This is where we will put information about Alice's show.
-
-*check spelling
+*check name spelling
