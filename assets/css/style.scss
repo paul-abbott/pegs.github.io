@@ -8,9 +8,13 @@
 
 /*colour schemes */
 :root {
-  --main-bg-color: #362082; /* Martel Blue
+  --main-bg-color: #f8f9f2; /* vitrine//wh-white */
+  --main-stripe-color-1: #f8f9f2; /* vitrine//wh-white */
+  --main-stripe-color-2: white; /* vitrine//wh-white */
+  /* #362082; /* Martel Blue
   /*  #FFF7F3; K pink paper 1 */
-  --main-txt-color: #d14; /* Martel Red
+  --main-txt-color: #14122b;  /* pegs deep blue */
+  /* #d14; /* Martel Red
   /* #f904ae; /* pegs pink
   /* #4040B2; / k blue 1 */
   /* #2F4F4F; /* p green */
@@ -19,12 +23,22 @@
   --secondary-details-color: red;
 }
 
+/* body container */
+.markdown-body, body{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    line-height: 1.2em;
+    background: repeating-linear-gradient(180deg, var(--main-stripe-color-1), var(--main-stripe-color-1) 30px, var(--main-stripe-color-2) 30px, var(--main-stripe-color-2) 60px);
+    background-size: cover;
+    color: var(--main-txt-color); /*text color*/
+}
+
 
 /* main-container */
 /* gets a different name when rendered */
 .container-lg{
     max-width: 800px;
-    background: var(--main-bg-color); /* porto pink #FFD1CE; */
+    /* background: var(--main-bg-color); /* porto pink #FFD1CE; */
 }
 
 .site-title, .site-title a{
@@ -67,14 +81,6 @@
 }
 
 .stream-content #text{
-}
-
-.markdown-body, body{
-    font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
-    line-height: 1.2em;
-    background: var(--main-bg-color);
-    color: var(--main-txt-color);
 }
 
 .markdown-body a, body a{
