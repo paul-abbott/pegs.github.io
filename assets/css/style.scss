@@ -30,7 +30,7 @@
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
     line-height: 1.2em;
-    background: repeating-linear-gradient(180deg, var(--main-stripe-color-1), var(--main-stripe-color-1) var(--main-stripe-size-1), var(--main-stripe-color-2) var(--main-stripe-size-1), var(--main-stripe-color-2) var(--main-stripe-size-2));
+    background: repeating-linear-gradient(180deg, var(--main-stripe-color-1), var(--main-stripe-color-1) 1em, var(--main-stripe-color-2) 1em, var(--main-stripe-color-2) 2em);
     background-size: cover;
     color: var(--main-txt-color); /*text color*/
 }
