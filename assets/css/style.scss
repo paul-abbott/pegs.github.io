@@ -11,6 +11,8 @@
   --main-bg-color: #f8f9f2; /* vitrine//wh-white */
   --main-stripe-color-1: #f8f9f2; /* vitrine//wh-white */
   --main-stripe-color-2: white; /* vitrine//wh-white */
+  --main-stripe-size-1: 7px;
+  --main-stripe-size-2: 14px; /* (double stripe 1 */)
   /* #362082; /* Martel Blue
   /*  #FFF7F3; K pink paper 1 */
   --main-txt-color: #14122b;  /* pegs deep blue */
@@ -28,7 +30,7 @@
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
     line-height: 1.2em;
-    background: repeating-linear-gradient(180deg, var(--main-stripe-color-1), var(--main-stripe-color-1) 30px, var(--main-stripe-color-2) 30px, var(--main-stripe-color-2) 60px);
+    background: repeating-linear-gradient(180deg, var(--main-stripe-color-1), var(--main-stripe-color-1) var(--main-stripe-size-1), var(--main-stripe-color-2) var(--main-stripe-size-1), var(--main-stripe-color-2) var(--main-stripe-size-2));
     background-size: cover;
     color: var(--main-txt-color); /*text color*/
 }
