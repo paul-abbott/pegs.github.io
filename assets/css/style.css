@@ -57,7 +57,7 @@ body {
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
   .markdown-body, body {
-  font-size:40px;
+  font-size:30px;
    line-height:1.2em;
    background:repeating-linear-gradient(189deg, var(--main-stripe-color-1), 
      var(--main-stripe-color-1) 1px, 
