@@ -15,4 +15,4 @@ pegs is pleased to host a series of new paintings by Alice Mendelowitz. These wo
 To coincide with the opening at pegs, documentation of the show will be added to the website.  
 
 
-[alice-website](https://alicemendelowitz.tumblr.com/)
+[alicemendelowitz.tumblr.com](https://alicemendelowitz.tumblr.com/)
