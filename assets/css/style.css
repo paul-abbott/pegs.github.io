@@ -4,20 +4,60 @@
  --main-bg-color: #f8f9f2;
  --main-stripe-color-1: #f8f9f2;
  --main-stripe-color-2: #00000036;
+ /* sizes set in media query */
  --main-stripe-size-1: 1px;
  --main-stripe-size-2: 2px;
  --main-txt-color: #14122b;
  --secondary-details-color: red
 }
+
 .markdown-body,
 body {
  font-family:"Times New Roman", Times, serif;
- font-size:20px;
- line-height:1.2em;
- background:repeating-linear-gradient(180deg, var(--main-stripe-color-1), var(--main-stripe-color-1) 1px, var(--main-stripe-color-2) 1px, var(--main-stripe-color-2) 2px);
  background-size:cover;
  color:var(--main-txt-color)
 }
+
+/* screen size specific */
+
+/* less than 400px */
+.markdown-body,
+body {
+   font-size:40px;
+   line-height:1.2em;
+   background:repeating-linear-gradient(180deg, 
+     var(--main-stripe-color-1), 
+     var(--main-stripe-color-1) 0.5px, 
+     var(--main-stripe-color-2) 0.5px, 
+     var(--main-stripe-color-2) 1px);
+}
+
+/* 400-800px */
+@media screen and (min-width: 400px) {
+.markdown-body,
+body {
+  font-size:40px;
+   line-height:1.2em;
+   background:repeating-linear-gradient(180deg, var(--main-stripe-color-1), 
+     var(--main-stripe-color-1) 0.5px, 
+     var(--main-stripe-color-2) 0.5px, 
+     var(--main-stripe-color-2) 4px);
+}
+}
+/* more than 800px */
+@media screen and (min-width: 800px) {
+.markdown-body,
+body {
+  font-size:20px;
+   line-height:1.2em;
+   background:repeating-linear-gradient(180deg, 
+     var(--main-stripe-color-1), 
+     var(--main-stripe-color-1) 1px, 
+     var(--main-stripe-color-2) 1px, 
+     var(--main-stripe-color-2) 2px);
+}
+}
+
 .container-lg {
  max-width:800px;
  background:transparent;
