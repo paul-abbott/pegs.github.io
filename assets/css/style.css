@@ -1,4 +1,4 @@
-/* pegs css 2021 */
+/* pegs css 2021 v2 */
 
 :root {
  --main-bg-color: #f8f9f2;
@@ -20,42 +20,65 @@ body {
 
 /* screen size specific */
 
-/* less than 400px */
-.markdown-body,
-body {
-   font-size:40px;
-   line-height:1.2em;
-   background:repeating-linear-gradient(180deg, 
-     var(--main-stripe-color-1), 
-     var(--main-stripe-color-1) 0.5px, 
-     var(--main-stripe-color-2) 0.5px, 
-     var(--main-stripe-color-2) 1px);
-}
 
-/* 400-800px */
-@media screen and (min-width: 400px) {
-.markdown-body,
-body {
+/* iPhone 5> */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.markdown-body, body {
   font-size:40px;
    line-height:1.2em;
-   background:repeating-linear-gradient(180deg, var(--main-stripe-color-1), 
-     var(--main-stripe-color-1) 0.5px, 
-     var(--main-stripe-color-2) 0.5px, 
-     var(--main-stripe-color-2) 4px);
-}
-}
-/* more than 800px */
-@media screen and (min-width: 800px) {
-.markdown-body,
-body {
-  font-size:20px;
-   line-height:1.2em;
-   background:repeating-linear-gradient(180deg, 
-     var(--main-stripe-color-1), 
+   background:repeating-linear-gradient(181deg, var(--main-stripe-color-1), 
      var(--main-stripe-color-1) 1px, 
      var(--main-stripe-color-2) 1px, 
      var(--main-stripe-color-2) 2px);
+      }
 }
+
+/* iPhone 6> */
+@media only screen 
+  and (min-device-width: 375px) 
+  /* and (max-device-width: 667px) */
+  and (-webkit-min-device-pixel-ratio: 2) {
+.markdown-body, body {
+  font-size:40px;
+   line-height:1.2em;
+   background:repeating-linear-gradient(189deg, var(--main-stripe-color-1), 
+     var(--main-stripe-color-1) 1px, 
+     var(--main-stripe-color-2) 1px, 
+     var(--main-stripe-color-2) 2px);
+      }
+}
+
+/* iPad 1,2, mini etc */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .markdown-body, body {
+  font-size:40px;
+   line-height:1.2em;
+   background:repeating-linear-gradient(189deg, var(--main-stripe-color-1), 
+     var(--main-stripe-color-1) 1px, 
+     var(--main-stripe-color-2) 1px, 
+     var(--main-stripe-color-2) 2px);
+      }
+}
+
+/* larger screens: laptop etc */
+@media only screen 
+  and (min-device-width: 768px) 
+  /*and (max-device-width: 1024px) */
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .markdown-body, body {
+  font-size:20px;
+   line-height:1.2em;
+   background:repeating-linear-gradient(180deg, var(--main-stripe-color-1), 
+     var(--main-stripe-color-1) 1px, 
+     var(--main-stripe-color-2) 1px, 
+     var(--main-stripe-color-2) 2px);
+      }
 }
 
 .container-lg {
