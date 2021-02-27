@@ -1,5 +1,5 @@
 ---
-layout: page-mailing-list
+layout: contact
 title: "Contact"
 ---
 
@@ -20,5 +20,6 @@ title: "Contact"
 
 
 <!--End mc_embed_signup-->
-
-Or contact us here: contact@pegs.site
+Keira Greene, Paul Abbott.  
+Rue de la Victoire 39, Brussels 1060, Belgium.  
+contact@pegs.site
