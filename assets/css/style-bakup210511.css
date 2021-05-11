@@ -1,4 +1,4 @@
-/* pegs css 2021 v2.1 - 11 may 2021 */
+/* pegs css 2021 v2 */
 
 :root {
  --main-bg-color: #f8f9f2;
@@ -15,7 +15,6 @@
  --site-title-size: calc(var(--main-txt-size) *2.3);
  --nav-txt-size: calc(var(--main-txt-size)*1);
  --h1-txt-size: calc(var(--main-txt-size)*1.5);
- --h2-txt-size: calc(var(--main-txt-size)*1.2);
  /* media query multiplication scaling */
   --size-1-mul: 1;   /* biggest screens < 1025px */
   --size-2-mul: 1.4; /* e.g. ipad mini  768-1024px */
@@ -39,65 +38,59 @@ body {
 /* media query >>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /* // SIZE 1 // larger screens: laptop etc ------------------------------ */
-@media only screen
-  and (min-device-width: 1025px)
+@media only screen 
+  and (min-device-width: 1025px) 
   /*and (max-device-width: 1024px) */
   /* and (-webkit-min-device-pixel-ratio: 1) */
 {
   .markdown-body, body {
    font-size: calc(var(--main-txt-size) * var(--size-1-mul));
    line-height:1.2em;
-   background:repeating-linear-gradient(180deg,
-     var(--main-stripe-color-1),
-     var(--main-stripe-color-1) 1px,
-     var(--main-stripe-color-2) 1px,
+   background:repeating-linear-gradient(180deg, 
+     var(--main-stripe-color-1), 
+     var(--main-stripe-color-1) 1px, 
+     var(--main-stripe-color-2) 1px, 
      var(--main-stripe-color-2) 2px);
       }
     .site-title, .site-title a{
-      font-size: calc(var(--site-title-size) * var(--size-1-mul));
+      font-size: calc(var(--site-title-size) * var(--size-1-mul));    
     }
     .nav{
       font-size: calc(var(--nav-txt-size) * var(--size-1-mul));
     }
     .markdown-body h1, h1 {
       font-size: calc(var(--h1-txt-size) * var(--size-1-mul));
-    }
-    .markdown-body h2, h2 {
-      font-size: calc(var(--h2-txt-size) * var(--size-1-mul)) !important;
-    }
+    }   
 }
 
 /* // SIZE 2 // iPad 1,2, mini etc ------------------------------ */
-@media only screen
-  and (min-device-width: 768px)
+@media only screen 
+  and (min-device-width: 768px) 
   and (max-device-width: 1024px)
   /* and (-webkit-min-device-pixel-ratio: 1) */
 {
   .markdown-body, body {
   font-size: calc(var(--main-txt-size) * var(--size-2-mul));
    line-height:1.2em;
-   background:repeating-linear-gradient(189deg,
-     var(--main-stripe-color-1),
-     var(--main-stripe-color-1) 1px,
-     var(--main-stripe-color-2) 1px,
+   background:repeating-linear-gradient(189deg, 
+     var(--main-stripe-color-1), 
+     var(--main-stripe-color-1) 1px, 
+     var(--main-stripe-color-2) 1px, 
      var(--main-stripe-color-2) 2px);
       }
     .site-title, .site-title a{
-      font-size: calc(var(--site-title-size) * var(--size-2-mul));
+      font-size: calc(var(--site-title-size) * var(--size-2-mul));    
     }
     .nav{
       font-size: calc(var(--nav-txt-size) * var(--size-2-mul));
     }
     .markdown-body h1, h1 {
       font-size: calc(var(--h1-txt-size) * var(--size-2-mul));
-    }
-    .markdown-body h2, h2 {
-      font-size: calc(var(--h2-txt-size) * var(--size-2-mul)) !important;
-    }
+    }    
 }
 
 /* // SIZE 3 // non-standard//responsive  ------------------------------ */
-@media only screen
+@media only screen 
   and (min-device-width: 668px)
   and (max-device-width: 767px)
   /* and (-webkit-min-device-pixel-ratio: 1) */
@@ -105,28 +98,24 @@ body {
   .markdown-body, body {
   font-size: calc(var(--main-txt-size) * var(--size-3-mul));
    line-height:1.2em;
-   background:repeating-linear-gradient(189deg, var(--main-stripe-color-1),
-     var(--main-stripe-color-1) 1px,
-     var(--main-stripe-color-2) 1px,
+   background:repeating-linear-gradient(189deg, var(--main-stripe-color-1), 
+     var(--main-stripe-color-1) 1px, 
+     var(--main-stripe-color-2) 1px, 
      var(--main-stripe-color-2) 2px);
       }
     .site-title, .site-title a{
-      font-size: calc(var(--site-title-size) * var(--size-3-mul));
+      font-size: calc(var(--site-title-size) * var(--size-3-mul));    
     }
     .nav{
       font-size: calc(var(--nav-txt-size) * var(--size-3-mul));
     }
     .markdown-body h1, h1 {
       font-size: calc(var(--h1-txt-size) * var(--size-3-mul));
-    }
-  .markdown-body h2, h2 {
-      font-size: calc(var(--h2-txt-size) * var(--size-3-mul)) !important;
-    }
-
+    }    
 }
 
 /* // SIZE 4 // iPhone 6 ------------------------------ */
-@media only screen
+@media only screen 
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   /* and (-webkit-min-device-pixel-ratio: 2) */
@@ -134,51 +123,45 @@ body {
 .markdown-body, body {
   font-size: calc(var(--main-txt-size) * var(--size-4-mul));
    line-height:1.2em;
-   background:repeating-linear-gradient(189deg, var(--main-stripe-color-1),
-     var(--main-stripe-color-1) 1px,
-     var(--main-stripe-color-2) 1px,
+   background:repeating-linear-gradient(189deg, var(--main-stripe-color-1), 
+     var(--main-stripe-color-1) 1px, 
+     var(--main-stripe-color-2) 1px, 
      var(--main-stripe-color-2) 2px);
       }
     .site-title, .site-title a{
-      font-size: calc(var(--site-title-size) * var(--size-4-mul));
+      font-size: calc(var(--site-title-size) * var(--size-4-mul));    
     }
     .nav{
       font-size: calc(var(--nav-txt-size) * var(--size-4-mul));
     }
     .markdown-body h1, h1 {
       font-size: calc(var(--h1-txt-size) * var(--size-4-mul));
-    }
-    .markdown-body h2, h2 {
-      font-size: calc(var(--h2-txt-size) * var(--size-4-mul)) !important;
-    }
+    }   
 }
 
 /* // SIZE 5 // smallest iphone 5 etc ------------------------------ */
-@media only screen
+@media only screen 
   and (min-device-width: 0px)
   and (max-device-width: 374px)
-  /* and (-webkit-min-device-pixel-ratio: 2) */
+  /* and (-webkit-min-device-pixel-ratio: 2) */ 
 {
 .markdown-body, body {
    font-size: calc(var(--main-txt-size) * var(--size-5-mul));
    line-height:1.2em;
-   background:repeating-linear-gradient(185deg, var(--main-stripe-color-1),
-     var(--main-stripe-color-1) 1px,
-     var(--main-stripe-color-2) 1px,
+   background:repeating-linear-gradient(185deg, var(--main-stripe-color-1), 
+     var(--main-stripe-color-1) 1px, 
+     var(--main-stripe-color-2) 1px, 
      var(--main-stripe-color-2) 2px);
       }
     .site-title, .site-title a{
-      font-size: calc(var(--site-title-size) * var(--size-5-mul));
+      font-size: calc(var(--site-title-size) * var(--size-5-mul));    
     }
     .nav{
       font-size: calc(var(--nav-txt-size) * var(--size-5-mul));
     }
     .markdown-body h1, h1 {
       font-size: calc(var(--h1-txt-size) * var(--size-5-mul));
-    }
-  .markdown-body h2, h2 {
-      font-size: calc(var(--h2-txt-size) * var(--size-5-mul)) !important;
-    }
+    }      
 }
 
 /* END media query >>>>>>>>>>>>>>>>>>>>>>>>>>> */
