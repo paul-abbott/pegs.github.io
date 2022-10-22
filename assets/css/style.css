@@ -2,7 +2,7 @@
 
 :root {
  --main-bg-color: #f8f9f2;
- --main-stripe-color-1: #ff0000; /* red */
+ --main-stripe-color-1: white; /* #ff0000; /* red */
  /* --main-stripe-color-1: #f8f9f2; old lead black */
  --main-stripe-color-2: white;
  /* --main-stripe-color-2: #00000036; vitrine white */
