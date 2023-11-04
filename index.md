@@ -5,8 +5,7 @@ title: "Pegs"
 
 # Paloma Bouhana
 
-## *The white substance in which I am embedded*
-## December 8th 18h - December 23rd 2023
+## *The white substance in which I am embedded*<br/>December 8th 18h - December 23rd 2023
 
 <!-- image here ![Alice](http://pegs.site/assets/images/alice-pegs-web.jpg)  !-->
 
