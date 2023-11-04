@@ -14,4 +14,4 @@ pegs is a non profit organisation (VZW) established in 2021.
 Rue de la Victoire 39, Brussels 1060, Belgium.  
 contact@pegs.site
 
-![pegs image](../assets/images/pegs-event-1.png)  
+![pegs image](https://pegs.site/assets/images/pegs-event-1.png)  
