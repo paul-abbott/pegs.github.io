@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Paloma"
+title: "Pegs"
 ---
 
 # Paloma Bouhana
