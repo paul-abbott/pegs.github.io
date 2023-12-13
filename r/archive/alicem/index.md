@@ -14,12 +14,12 @@ pegs is pleased to host a series of new paintings by [Alice Mendelowitz](https:/
 
 <!--Opening preview Saturday 8th May, 16.00 - 18.00!-->
 
-![Alice](http://pegs.site/assets/images/alice01.jpg)  
+![Alice](http://pegs.site/assets/images/alice/alice01.jpg)  
 
-![Alice](http://pegs.site/assets/images/alice02.jpg)  
+![Alice](http://pegs.site/assets/images/alice/alice02.jpg)  
 
-![Alice](http://pegs.site/assets/images/alice03.jpg)
+![Alice](http://pegs.site/assets/images/alice/alice03.jpg)
 
-![Alice](http://pegs.site/assets/images/alice04.jpg)
+![Alice](http://pegs.site/assets/images/alice/alice04.jpg)
 
-![Alice](http://pegs.site/assets/images/alice05.jpg)  
+![Alice](http://pegs.site/assets/images/alice/alice05.jpg)  
