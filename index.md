@@ -3,18 +3,22 @@ layout: page
 title: "Pegs"
 ---
 
-# Paloma Bouhana
+<!-- duplicated ABOUT section !-->
 
-## *A Matrix is a Plate of Biscuits*<br/>December 8th 18h - December 23rd 2023
+Pegs is an<!--Brussels-based !--> artist-run organisation, which supports the creation, exhibition and performance of audio-visual, sound and performance based artworks.
 
-Pegs is pleased to host [Paloma Bouhana](https://palomabouhana.com/) who on December 8th at 18h will present the new performance *A Matrix is a Plate of Biscuits*.
+<!--This includes moving image, film, music and sound creation and production.!-->
 
-An exhibition of works developed during the performance will then be shown in our vitrine between 8th and 22rd December.
+<!--Pegs hosts artist [Keira Greene](http://keiragreene.com/), musician [Paul Abbott](https://paulabbott.net/) and sound designer [tyyym](https://tyyym.info/).!--> <!--Pegs supports the development and maintenance of a Brussels based inter-disciplinary artistic collaboration network which engages with and fosters international connections. Pegs works with partner organisations and individuals involved in creative practice, exhibition and performance, education and research. !-->
 
-![Paloma](http://pegs.site/assets/images/paloma/performance.jpg)
+<!--pegs is a non profit organisation originaly established in Brussels, in 2021.!-->
+<!--, by Paul Abbott, Keira Greene and Will Holder.!-->
 
-![Paloma](http://pegs.site/assets/images/paloma/close up 1.jpg)
+<!--pegs is a space in Brussels which celebrates and supports music and art practices. We do this by providing a space for developing and sharing works and conversation. This will happen through residencies, recordings, performances, screenings, meetings and publications. <!--pegs is a non profit organisation (VZW) established in 2021.!-->
 
-![Paloma](http://pegs.site/assets/images/paloma/close up 2.jpg)
+<!--Rue de la Victoire 39, Brussels 1060, Belgium.!-->
+contact@pegs.site
 
-![Paloma](http://pegs.site/assets/images/paloma/Exterior.jpg)
+<!--
+![pegs image](https://pegs.site/assets/images/pegs-event-1.png)  
+!-->

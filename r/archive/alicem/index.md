@@ -10,7 +10,7 @@ date: 2021-02-8
 
 <!-- ![Alice](http://pegs.site/assets/images/alice-pegs-web.jpg) !-->
 
-pegs is pleased to host a series of new paintings by [Alice Mendelowitz](https://www.alicemendelowitz.com/). These new works are painted onto reusable, washable nappy liners. They show scenes painted from photographs of the artists’ personal and domestic life, her partner, their daughter, their friends and the area they live in.  
+pegs was pleased to host a series of new paintings by [Alice Mendelowitz](https://www.alicemendelowitz.com/). These works were painted onto reusable, washable nappy liners. They show scenes painted from photographs of the artists’ personal and domestic life, her partner, their daughter, their friends and the area they live in.  
 
 <!--Opening preview Saturday 8th May, 16.00 - 18.00!-->
 
